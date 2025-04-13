@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>天气查询 App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🌤️ 天气查询</h1>
+    
+    <div class="search-box">
+      <input type="text" id="cityInput" placeholder="请输入城市名">
+      <button onclick="getWeather()">查询天气</button>
+    </div>
+
+    <div id="result"></div>
+
+    <div class="history-section">
+      <h2>历史记录</h2>
+      <div id="historyList"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,179 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f5f5;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .search-box {
+    margin: 20px 0;
+  }
+  
+  input, button {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  #result {
+    margin: 30px 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+  
+  .history-section {
+    margin-top: 30px;
+    text-align: left;
+  }
+  
+  .history-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin: 5px 0;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+  }
+  
+  .history-item:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .delete-btn {
+    background-color: #ff4444;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .delete-btn:hover {
+    background-color: #cc0000;
+  }
+  
+  .error-message {
+    background-color: #fff3f3;
+    border: 1px solid #ffcdd2;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: left;
+    color: #d32f2f;
+  }
+  
+  .error-message p {
+    margin: 0 0 10px 0;
+    font-size: 16px;
+  }
+  
+  .error-message .error-tip {
+    color: #666;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  .error-message ul {
+    margin: 10px 0;
+    padding-left: 20px;
+  }
+  
+  .error-message li {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .weather-info {
+    background-color: #f8f9fa;
+    border: 1px solid #e9ecef;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .weather-info p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .history-buttons {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .refresh-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .refresh-btn:hover {
+    background-color: #45a049;
+  }
+  
+  .history-content {
+    flex: 1;
+    cursor: pointer;
+  }
+  
+  .history-city {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .history-weather {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 5px;
+  }
+  
+  .history-temp {
+    color: #2196F3;
+    font-weight: bold;
+  }
+  
+  .history-feels {
+    color: #FF9800;
+  }
+  
+  .history-time {
+    font-size: 12px;
+    color: #999;
+  }
+  

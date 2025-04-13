@@ -1,4 +1,5 @@
-const API_KEY = "c8c67b9387b94a0c872175739251304"; // WeatherAPI.com API密钥
+// API密钥从环境变量获取
+const API_KEY = process.env.WEATHER_API_KEY || "c8c67b9387b94a0c872175739251304";
 
 // 从本地存储加载历史记录
 let history = JSON.parse(localStorage.getItem('weatherHistory')) || [];
